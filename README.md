@@ -50,16 +50,16 @@ We use ShapeNet, ScanObjectNN, ModelNet40 and ShapeNetPart in this work. See [DA
 ## 3. HyperPoint Models
 | Task              | Dataset        | Config                                                               | Acc.       | Checkpoints Download                                                                                     |
 |-------------------|----------------|----------------------------------------------------------------------|------------|----------------------------------------------------------------------------------------------------------|
-| Pre-training      | ShapeNet       | [pretrain_base.yaml](cfgs/pretrain/base.yaml)                        | N.A.       | [HyperPoint](https://drive.google.com/file/d/1L-TlZUi7umBCDpZW-1F0Gf4X-9Wvf_Zo/view?usp=share_link)           |
-| Classification    | ScanObjectNN   | [finetune_scan_hardest.yaml](./cfgs/full/finetune_scan_hardest.yaml) | 90.35%     | [PB_T50_RS](https://drive.google.com/file/d/1kjKqvs8o6jiqZc4-srMFp2DOpIYDHdgf/view?usp=share_link)       |
+| Pre-training      | ShapeNet       | [pretrain_base.yaml](cfgs/pretrain/base.yaml)                        | N.A.       | [HyperPoint](https://pan.baidu.com/s/1nXwJwkTwY-VITPLF136A1g?pwd=g3b9)           |
+| Classification    | ScanObjectNN   | [finetune_scan_hardest.yaml](./cfgs/full/finetune_scan_hardest.yaml) | 90.35%     | [PB_T50_RS](https://pan.baidu.com/s/1drTXo7XmyFfv0HoGFpV8oA?pwd=5pvn)       |
 | Classification    | ScanObjectNN   | [finetune_scan_objbg.yaml](./cfgs/full/finetune_scan_objbg.yaml)     | 95.52%     | [OBJ_BG](https://drive.google.com/file/d/1qjohpaTCl-DzHaIv6Ilq0sLAGG2H3Z9I/view?usp=share_link)          |
-| Classification    | ScanObjectNN   | [finetune_scan_objonly.yaml](./cfgs/full/finetune_scan_objonly.yaml) | 94.32%     | [OBJ_ONLY](https://drive.google.com/file/d/1kvowgPbvlFxx3B5WSfL3LiKZ5--5s52b/view?usp=share_link)        |
-| Classification    | ModelNet40| [finetune_modelnet_8k.yaml](./cfgs/full/finetune_modelnet_8k.yaml)   | 94.2%      | [ModelNet](https://drive.google.com/file/d/1qUuT6sjhZw3gn0rFj-qDfYG6VMBXF0sT/view?usp=share_link)     |
+| Classification    | ScanObjectNN   | [finetune_scan_objonly.yaml](./cfgs/full/finetune_scan_objonly.yaml) | 94.32%     | [OBJ_ONLY](https://pan.baidu.com/s/13p1HXberVTa4qcw-iCaSpw?pwd=mah8)        |
+| Classification    | ModelNet40| [finetune_modelnet_8k.yaml](./cfgs/full/finetune_modelnet_8k.yaml)   | 94.2%      | [ModelNet](https://pan.baidu.com/s/1UQvj38snlhLB1uLc6EwPWA?pwd=qt4w)     |
 
 
 | Task              | Dataset    | Config                                   | 5w10s (%)  | 5w20s (%)  | 10w10s (%) | 10w20s (%) | Download                                                                                       |
 |-------------------|------------|------------------------------------------|------------|------------|------------|------------|------------------------------------------------------------------------------------------------|
-| Few-shot learning | ModelNet40 | [fewshot.yaml](./cfgs/full/fewshot.yaml) | 97.4 ± 1.9 | 98.9 ± 0.9 | 94.1 ± 4.4 | 95.9 ± 2.2 | [HyperPoint](https://drive.google.com/file/d/1L-TlZUi7umBCDpZW-1F0Gf4X-9Wvf_Zo/view?usp=share_link) |
+| Few-shot learning | ModelNet40 | [fewshot.yaml](./cfgs/full/fewshot.yaml) | 97.4 ± 1.9 | 98.9 ± 0.9 | 94.1 ± 4.4 | 95.9 ± 2.2 | [HyperPoint](https://pan.baidu.com/s/1nXwJwkTwY-VITPLF136A1g?pwd=g3b9) |
 
 ## 4. HyperPoint Pre-training
 Pre-training with the default configuration, run the script:
