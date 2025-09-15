@@ -1,5 +1,5 @@
 # HyperPoint: Multimodal 3D Foundation Model in Hyperbolic Space
-> [**HyperPoint: Multimodal 3D Foundation Model in Hyperbolic Space**]<br>
+> **HyperPoint: Multimodal 3D Foundation Model in Hyperbolic Space**<br>
 > [Yiding Sun](https://github.com/Issac-Sun)\*, [Haozhe Cheng]()\*, [Chaoyi Lu](), [Zhengqiao Li](), [Minghong Wu](), [Huimin Lu]() and [Jihua Zhu]() <br>
 
 Xi'an Jiaotong University, Southeast University
